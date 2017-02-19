@@ -17,10 +17,10 @@ module.exports = {
         params: {},
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to disconnect the sensor
@@ -37,10 +37,10 @@ module.exports = {
         params: {},
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to trigger a measurement
@@ -56,10 +56,10 @@ module.exports = {
         params: {},
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to toggle the sensor
@@ -75,10 +75,10 @@ module.exports = {
         params: { name: 'toggleSightOrientation', params: [] },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to do a home action
@@ -94,10 +94,10 @@ module.exports = {
         params: { name: 'home', params: [] },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to call the self compIt action of the sensor
@@ -113,10 +113,10 @@ module.exports = {
         params: { name: 'compIt', params: [] },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to initialize the sensor
@@ -132,10 +132,10 @@ module.exports = {
         params: { name: 'initialize', params: [] },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to choose a faro ion laser tracker as active sensor
@@ -185,10 +185,10 @@ module.exports = {
         },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to choose a faro vantage laser tracker as active sensor
@@ -238,10 +238,10 @@ module.exports = {
         },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to choose a leica laser tracker as active sensor
@@ -285,10 +285,10 @@ module.exports = {
         },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to set the single point measurement as active config
@@ -331,10 +331,10 @@ module.exports = {
         },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
   /**
    * json message to set scan by distance as active measurement config
@@ -377,9 +377,9 @@ module.exports = {
         },
       },
       undefined,
-      4,
+      4
     );
     return message;
-  }
+  },
 
 };
