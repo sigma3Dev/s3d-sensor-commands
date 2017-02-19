@@ -1,0 +1,24 @@
+{
+  "name": "s3d-sensor-commands",
+  "version": "0.1.0",
+  "description": "module with all available sensor commands (json) to communicate with the s3dsensorservice (c++ websocket service)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigma3Dev/s3d-sensor-commands.git"
+  },
+  "keywords": [
+    "sensor",
+    "metrology",
+    "lasertracker"
+  ],
+  "author": "sigma3D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigma3Dev/s3d-sensor-commands/issues"
+  },
+  "homepage": "https://github.com/sigma3Dev/s3d-sensor-commands#readme"
+}
